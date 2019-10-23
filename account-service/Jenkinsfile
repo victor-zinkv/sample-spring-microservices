@@ -1,7 +1,7 @@
  //using hostname.
 
 //[code language="java"]
-node ('docker-jnlp-agent') {
+node {
 
     withMaven(maven:'maven') {
 
