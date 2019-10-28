@@ -2,9 +2,7 @@
 
 //[code language="java"]
 node {
-    agent { 
-        docker { image 'maven:3-alpine' }
-    } 
+    
     withMaven(maven:'maven') {
 
         stage('Checkout') {
